@@ -5,27 +5,27 @@ import Card from "./Card";
 
 const projects = [
   {
-    title: "React Space",
+    title: "MVP on Saas",
     description:
-      "Handy tool belt to create amazing AR components in a React app, with redux integration via middleware️",
+      "Functional landing page, we have developed a SAAS product that we hope wil strengthen the recruitment process 🔥️",
     getImageSrc: () => require("../images/photo1.jpg"),
   },
   {
-    title: "React Infinite Scroll",
+    title: "House Rent Contract Automation System",
     description:
-      "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️",
+      "This project is about rental contract automation. It is prepared for real estate companies. Company employees can view customers (both homeowners and tenants), houses and contracts data.",
     getImageSrc: () => require("../images/photo2.jpg"),
   },
   {
-    title: "Photo Gallery",
+    title: "Steve the Snake",
     description:
-      "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
+       "Implemented Snake Game, added dynamic animations to the game using improvised algorithms.",
     getImageSrc: () => require("../images/photo3.jpg"),
   },
   {
-    title: "Event planner",
+    title: "Undergraduate Thesis - Autonomous Bottle Sorter",
     description:
-      "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
+      "This was a group project of my university's Capstone Project course. Main purpose of this course is to complete given task from ground up as a team in one term.",
     getImageSrc: () => require("../images/photo4.jpg"),
   },
 ];
@@ -33,7 +33,7 @@ const projects = [
 const ProjectsSection = () => {
   return (
     <FullScreenSection
-      backgroundColor="#14532d"
+      backgroundColor="#512DA8"
       isDarkBackground
       p={8}
       alignItems="flex-start"
@@ -45,7 +45,7 @@ const ProjectsSection = () => {
       <Box
         display="grid"
         gridTemplateColumns="repeat(2,minmax(0,1fr))"
-        gridGap={8}
+        gridGap={10}
       >
         {projects.map((project) => (
           <Card

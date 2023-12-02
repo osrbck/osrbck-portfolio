@@ -6,14 +6,19 @@ import {
   faLinkedin,
   faMedium,
   faStackOverflow,
+  faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { Box, HStack } from "@chakra-ui/react";
 
 const socials = [
   {
     icon: faEnvelope,
-    url: "mailto: hello@example.com",
+    url: "mailto: osrbck@gmail.com",
   },
+  {
+    icon: faInstagram,
+    url: "https://www.instagram.com/osrbck/",
+  },  
   {
     icon: faGithub,
     url: "https://github.com/osrbck",

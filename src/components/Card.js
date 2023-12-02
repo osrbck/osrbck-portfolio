@@ -12,7 +12,7 @@ const Card = ({ title, description, imageSrc }) => {
       borderColor="gray.200"
       p={4}
       spacing={4}
-      backgroundColor="white"
+      backgroundColor="black"
     >
       {/* Image */}
       <Image src={imageSrc} alt={title} />
