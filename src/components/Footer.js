@@ -9,12 +9,14 @@ const Footer = () => {
           margin="0 auto"
           px={12}
           color="white"
-          justifyContent="center"
+          justifyContent="space-around"
           alignItems="center"
           maxWidth="1024px"
-          height={16}
+          height={32}
         >
-          <p>Osone • © 2023</p>
+          <p>Osman • © 2023</p>
+          <p><a href="https://www.buymeacoffee.com/osrbck"> <img align="right" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="osrbck" /></a></p>
+
         </Flex>
       </footer>
     </Box>
