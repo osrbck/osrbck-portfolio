@@ -17,12 +17,6 @@ const projects = [
     getImageSrc: () => require("../images/photo2.jpg"),
   },
   {
-    title: "Steve the Snake",
-    description:
-       "Implemented Snake Game, added dynamic animations to the game using improvised algorithms.",
-    getImageSrc: () => require("../images/photo3.jpg"),
-  },
-  {
     title: "Undergraduate Thesis - Autonomous Bottle Sorter",
     description:
       "This was a group project of my university's Capstone Project course. Main purpose of this course is to complete given task from ground up as a team in one term.",
